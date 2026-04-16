@@ -59,7 +59,7 @@ app.use(hpp());
 
 // CORS - restrict to your frontend origin
 const corsOptions = {
-  origin: process.env.ALLOWED_ORIGIN || ["https://website-seven-khaki-57.vercel.app", "http://localhost:5174", "www.cccakgec.in", "ccakgec.in", "new-ccc.vercel.app","http://localhost:5173"],
+  origin: ["https://www.cccakgec.in", "http://localhost:5174", "www.cccakgec.in", "ccakgec.in", "https://new-cccc.vercel.app","http://localhost:5173"],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
   credentials: false,
